@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#Big Data Files
+Data/csv_building_damage_assessment.csv 
+Data/csv_building_structure.csv
+Data/submission_format (1).csv
+Data/test_values (2).csv
+Data/train_labels (1).csv
+Data/train_values (2).csv
+Data/ward_vdcmun_district_name_mapping.csv
