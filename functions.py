@@ -154,7 +154,7 @@ def prettyPrintGridCVResults(GSCVModel):
     '''
     
     list_cols = ['mean_test_f1_micro']
-    list_metrics = [ 'mean_test_f1_macro', 'mean_test_f1_micro']
+    list_metrics = [ 'mean_test_f1_macro']
     list_cols.extend(list_metrics)
 
     for col in GSCVModel.cv_results_.keys():
@@ -169,7 +169,7 @@ def prettyPrintGridCVResults(GSCVModel):
 
         
     table.rename(columns={'mean_test_f1_micro': 'Mean Test F1-Score (micro)',
-                          'mean_test_precision_macro': 'Mean Test Precision (micro)'
+                          'mean_test_f1_macro': 'Mean Test F1-Score (macro)'
              
                           }, inplace=True)
     
