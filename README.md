@@ -74,3 +74,10 @@ Basically, **micro F1 score** performed by first calculating the sum of all true
 I will also find the **macro** F1 score too because why not? **macro** scores are just gathering all the f1 scores per class and dividing it by the number of classes.
 
 # Results
+My best model was my **Random Forest** as it gave me a micro-F1 score of almost **72%**.
+
+
+
+<img src = 'Images/final_confusion_matrix.png'>
+
+My confusion matrix had some issues with predicting the damage 1 class, but it was phephenomenal at predicting the majority class of damage 2. 
