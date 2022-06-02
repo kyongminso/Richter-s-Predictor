@@ -84,9 +84,15 @@ My best model was my **Random Forest** as it gave me a micro-F1 score of almost 
 <img src = 'Images/Screen Shot 2022-05-31 at 17.40.10 (2).png'>
 
 
-<img src = 'Images/final_confusion_matrix.png'>
+<img src = 'Images/f1_bar_chart.png'>
 
-My confusion matrix had some issues with predicting the damage 1 class, but it was phephenomenal at predicting the majority class of damage 2. For my level 3 damage, it was able to predict the majority but level 2 damage was for sure involved with the prediction for this target class.
+The rankings of my F1 micro scores were as followed: 
+
+- 72% (**Random Forest**)
+- 71% (**Logistic Regression**)
+- 69% (**K-Nearest Neighbors**)
+- 66% (**XGBoost**)
+
 
 # App 
 
@@ -100,7 +106,7 @@ I was limited with computing power. One of models ran for more than 13 hours and
 # Conclusion 
 In the end, I built a predictive model using the Micro F1-Score off of the 2015 earthquake in Nepal using information from [Driven Data](https://www.drivendata.org/competitions/57/nepal-earthquake/). I was able to do some data cleaning and I made a dataframe and using that dataframe, I built a pipeline and I was able to use multiple algorithms for my categorical data. A lot of my models took a lot of computational power, and I even ended up cutting my grid search short. 
 
-Overall, I got a micro- F1 score that crossed over 70% and I was pleased with that. The model I decided to run with was my **Random Forest** because it gave me my best score. I was able to pull out the best features and I was able to see a correlation to see the impact that my features had on my prediction. I was also able to build a histogram to see if the certain building materials were prevalent in earthquake damages. There is definitely much more that I could've explored but that's just something I will have to do later when I have more time and save enough money to buy a super computer. Overall, the location of the city matters, the closer you are to the epicenter, the more likely the damage will be more detrimental. I believe this model could save lives by reinforcing homes that are closer to earthquake disaster areas and start by building off of bricks ,try not to build your home off of mud_mortar_stonem, and if your foundation is built off of **'r'**, I would try to reinforce that either with **u** or **i**. 
+Overall, I got a micro- F1 score that crossed over 70% and I was pleased with that. The model I decided to run with was my **Random Forest** because it gave me my best score. I was able to pull out the best features and I was able to see a correlation to see the impact that my features had on my prediction. I was also able to build a histogram to see if the certain building materials were prevalent in earthquake damages. Overall, the location of the city matters, the closer you are to the epicenter, the more likely the damage will be more detrimental. I believe this model could save lives by reinforcing homes that are closer to earthquake disaster areas and start by building off of bricks ,try not to build your home off of mud_mortar_stonem, and if your foundation is built off of **'r'**, I would try to reinforce that either with **u** or **i**. 
 
 
 # Next Steps
@@ -112,7 +118,7 @@ Overall, I got a micro- F1 score that crossed over 70% and I was pleased with th
 - Run more models
     - Run more grid searches and play around with my models too. Obviously we want to try for a better score.
 - Invest more money into Nepal
-    - Nepal is ranked [100](https://countryeconomy.com/gdp/nepal#:~:text=The%20GDP%20figure%20in%202020,2019%2C%20when%20it%20was%20%241%2C195.) in the world. Millions of dollars have been poured into the country, but almost 10 years after the earthquake, the country is still struggling trying to get back onto it's feet.
+    - Nepal is ranked [100](https://countryeconomy.com/gdp/nepal#:~:text=The%20GDP%20figure%20in%202020,2019%2C%20when%20it%20was%20%241%2C195.) in the world. Millions of dollars have been poured into the country, but almost 10 years after the earthquake, the country is still struggling trying to get back onto its feet.
     - Help funding for homes using ground_floor_type 'v', and for any homes made of mud_mortar_stone, try your best to reinforce it, and for any new homes being built you can use brick to help withstand the damages.
 
 # Repository Structure 
