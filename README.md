@@ -151,6 +151,6 @@ Overall, I got a micro- F1 score that crossed over 70% and I was pleased with th
 
 [Wikipedia]((https://en.wikipedia.org/wiki/April_2015_Nepal_earthquake))
 
-[Data for project]((https://www.drivendata.org/competitions/57/nepal-earthquake/))
+[Data for project](https://www.drivendata.org/competitions/57/nepal-earthquake/)
 
-[Website of where the data originally stemmed from.]((https://eq2015.npc.gov.np/#/download))
+[Website of where the data originally stemmed from.](https://eq2015.npc.gov.np/#/download)
