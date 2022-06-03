@@ -110,16 +110,15 @@ Overall, I got a micro- F1 score that crossed over 70% and I was pleased with th
 
 
 # Next Steps
-- Gather more information on my data 
-    - My data has some information that doesn't make any sense as they only give us one lettered answers. I would dig further into this data and see if I can translate my data into something that is translatable.
-- Explore more of the data
-    - Spend more time doing EDA. Play around with the features and see if I can improve my scores.
-    - Try and see if I can find more datasets that could help improve my model. 
-- Run more models
-    - Run more grid searches and play around with my models too. Obviously we want to try for a better score.
-- Invest more money into Nepal
-    - Nepal is ranked [100](https://countryeconomy.com/gdp/nepal#:~:text=The%20GDP%20figure%20in%202020,2019%2C%20when%20it%20was%20%241%2C195.) in the world. Millions of dollars have been poured into the country, but almost 10 years after the earthquake, the country is still struggling trying to get back onto its feet.
-    - Help funding for homes using ground_floor_type 'v', and for any homes made of mud_mortar_stone, try your best to reinforce it, and for any new homes being built you can use brick to help withstand the damages.
+- Reinforce the homes in Nepal.
+    - To make sure this amount of damage never happens again, fill in your building information on my app and see how your building will do in a earthquake. If your building is predicted a damage 3, reinforce it.
+- Data Digging
+    - Spend more time doing EDA. Do more experiments around with the features and see if I can improve my models.
+    - Find more outside datasets that could help improve my model.
+- Run more models & tune my app
+    - Run more grid searches and experiment with the models. Go for the better score. 
+    - While giving the predicted damage, I would also put down a sentence underneath or something saying: ‘the building survived or not.’ Make it more readable and easier to understand for everyone.
+
 
 # Repository Structure 
 ```
@@ -139,6 +138,8 @@ Overall, I got a micro- F1 score that crossed over 70% and I was pleased with th
 ├── LICENSE
 ├── Main Notebook.ipynb
 ├── README.md
+├── app.py
+├── environment.yml
 └── functions.py
 ```
 
