@@ -149,7 +149,7 @@ Overall, I got a micro- F1 score that crossed over 70% and I was pleased with th
 
 [Xiaohua Su](https://github.com/xiaohua-su)
 
-[Wikipedia]((https://en.wikipedia.org/wiki/April_2015_Nepal_earthquake))
+[Wikipedia](https://en.wikipedia.org/wiki/April_2015_Nepal_earthquake)
 
 [Data for project](https://www.drivendata.org/competitions/57/nepal-earthquake/)
 
