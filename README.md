@@ -138,6 +138,7 @@ Overall, I got a micro- F1 score that crossed over 70% and I was pleased with th
 ├── LICENSE
 ├── Main Notebook.ipynb
 ├── README.md
+├── Richter's Predictor.pptx.pdf
 ├── app.py
 ├── environment.yml
 └── functions.py
